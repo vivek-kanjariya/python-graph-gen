@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the CSV file
+# Load the CSV file and gathering data using pd
 def load_data(filename):
     """Load data from a CSV file."""
     try:
